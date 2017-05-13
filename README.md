@@ -6,9 +6,13 @@
 
 vim plugin for SQL code format. similar to `:GoFmt`.
 
-you need to put `sql-formatter-1.0.0-jar-with-dependencies.jar` into `~/.vim/lib`.
+## Installation
 
-https://github.com/sambatriste/sql-formatter/tree/master/binary
+This plugin require jackc's sqlfmt command
+
+```
+$ go get github.com/jackc/sqlfmt/cmd/sqlfmt
+```
 
 ## Author
 
