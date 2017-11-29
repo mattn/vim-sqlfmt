@@ -8,10 +8,10 @@ vim plugin for SQL code format. similar to `:GoFmt`.
 
 ## Installation
 
-This plugin require jackc's sqlfmt command
+This plugin require andialbrecht's sqlformat command
 
 ```
-$ go get github.com/jackc/sqlfmt/cmd/sqlfmt
+$ pip install --upgrade sqlparse
 ```
 
 ## Author
